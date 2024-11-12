@@ -1,0 +1,10 @@
+utils\ElementHandler.class
+runners\TestRunner.class
+utils\Config.class
+utils\GenerateReport.class
+models\Vehicle.class
+pages\CarValuationPage.class
+utils\FileUtil.class
+steps\CarValuationSteps.class
+utils\WebDriverUtil.class
+utils\CookieHandler.class
