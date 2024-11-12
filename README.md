@@ -77,30 +77,29 @@ The framework is organized as follows:
    - `glue`: Path to step definition classes.
    - `plugin`: Report format and output location.
 
-Configuration
+## Configuration
 Browser Setup: The WebDriverUtil class uses WebDriverManager to download the appropriate WebDriver binary for Edge. Ensure you have the correct version of Edge installed, or modify the browser configuration if using Chrome.
 
-Properties File: In the config.properties file (located in src/test/resources), specify any required configuration values:
+## Properties File: In the config.properties file (located in src/test/resources), specify any required configuration values:
 
 properties
-Copy code
 api.url=https://example.com/car-valuation
-Data Files: Place car_input.txt and car_output.txt in the src/test/resources directory. These files contain input and expected output data for vehicle registrations.
 
-Running Tests
+## Data Files: Place car_input.txt and car_output.txt in the src/test/resources directory. These files contain input and expected output data for vehicle registrations.
+
+## Running Tests
 Run Tests with Maven: Execute the following Maven command to run the test suite:
-
 bash
-Copy code
 mvn test
+
 Run Individual Tests with JUnit: Run TestRunner.java directly from your IDE (e.g., IntelliJ IDEA or Eclipse) to execute Cucumber tests.
 
-Viewing Test Reports
+## Viewing Test Reports
 After running tests, reports are generated in the target directory:
-
 HTML Report: target/cucumber-report.html provides a summary of the test results.
-Logging
-The CookieHandler class logs actions and test outcomes to selenium_results.log:
 
+## Logging
+The CookieHandler class logs actions and test outcomes to selenium_results.log:
 Located in the root project directory.
+
 Logs details about cookie acceptance, errors, and timeouts.# car-test-demo
