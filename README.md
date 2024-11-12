@@ -1,6 +1,13 @@
 # Selenium Cucumber Testing Framework
 
 This framework is designed to automate web tests using **Selenium** with **Cucumber** for behavior-driven development (BDD). It leverages **JUnit** for test execution and **cucumber-reporting** for enhanced HTML reports.
+Some of the capability of thid framework is as equested:
+#### Can read car reg from the file input
+#### Compare the output
+#### Can ad more input filrs using example in featute file
+#### Used design pattern
+#### can be reused for any other domain
+#### can be run on Edge without updating Edge driver
 
 ## Table of Contents
 - [Project Structure](#project-structure)
